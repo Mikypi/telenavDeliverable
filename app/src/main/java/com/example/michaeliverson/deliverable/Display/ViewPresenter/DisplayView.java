@@ -11,7 +11,6 @@ public class DisplayView extends AppCompatActivity implements DisplayContract.Vi
 
     @Inject DisplayPresenter presenter;
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -26,5 +25,15 @@ public class DisplayView extends AppCompatActivity implements DisplayContract.Vi
     @Override
     public void setupDagger() {
 
+    }
+
+    @Override
+    public void onResume() {
+        super.onResume();
+    }
+
+    @Override
+    public void onPause() {
+        super.onPause();
     }
 }

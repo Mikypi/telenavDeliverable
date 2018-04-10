@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Deliverable</string>
+    <string name="Uri">https://maps.googleapis.com</string>
+    <string name="ApiKey">AIzaSyAGD6Lf6koGVJsx2gIoSgnL5L8vembmifg</string>
 </resources>

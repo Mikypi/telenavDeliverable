@@ -11,7 +11,8 @@ public interface DisplayContract {
 
     public interface View extends BaseView
     {
-
+        public void onResume();
+        public void onPause();
     }
 
     public interface Presenter extends BasePresenter<View>
