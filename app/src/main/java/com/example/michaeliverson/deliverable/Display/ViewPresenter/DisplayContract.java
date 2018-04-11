@@ -17,6 +17,6 @@ public interface DisplayContract {
 
     public interface Presenter extends BasePresenter<View>
     {
-
+        public void initilizeLocalCoordinate();
     }
 }

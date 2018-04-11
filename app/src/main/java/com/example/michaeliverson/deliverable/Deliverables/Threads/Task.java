@@ -41,7 +41,7 @@ public class Task implements Runnable
             case "Bike":
             {
                 toReturn = 1000;
-                break;;
+                break;
             }
         }
         return toReturn;
@@ -55,10 +55,11 @@ public class Task implements Runnable
             while (stop) {
                 TimeUnit.MILLISECONDS.sleep(pauseTime);
 
+
             }
         }catch (Exception ex)
         {
-            
+
         }
 
     }

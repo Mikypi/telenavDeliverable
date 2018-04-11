@@ -6,5 +6,5 @@ package com.example.michaeliverson.deliverable.Deliverables.Communications;
 
 public class Comms {
 
-    public
+
 }
